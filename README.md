@@ -30,3 +30,16 @@ Then use the following sample code to encrypt a string:
   
 }
 ```
+
+Credits
+=============
+**NSData+RSA**     
+by [Pascal Bihler](http://pascal-bihler.de)    
+
+**NSData+AES256**    
+I don't knwo who made it, I got it from [here](http://pastie.org/426530). 
+If you are the creator of this category, let me know :-)
+
+License
+=============
+The code is provided on a as is basis. Do what you want with it, make it better, use it or sell it.
