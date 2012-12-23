@@ -18,6 +18,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	self.crypter = [CGFCrypter sharedCrypter];
+	
+	NSString *secret = @"My super secret message to Santa";
+	
+	NSData *encrypted = [self.crypter encryptString:secret usingEncoding:NSUTF8StringEncoding];
+	
+	NSString *decrypted = [[NSString alloc] initWithData:[self.crypter decryptData:encrypted] encoding:NSUTF8StringEncoding];
 }
 
 - (void)didReceiveMemoryWarning

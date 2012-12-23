@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CGFCrypter.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+	
+}
+
+@property (strong) CGFCrypter *crypter;
 
 @end
